@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-angular-requiredjs-modular' ]; then cd .. && eval "mv $currentfolder generator-angular-requiredjs-modular" && cd generator-angular-requiredjs-modular; fi
+
