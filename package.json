@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-requiredjs-modular",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Yeoman generator for modular angular project using requiredjs for AMD",
   "license": "MIT",
   "main": "app/index.js",
